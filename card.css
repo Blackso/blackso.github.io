@@ -1,0 +1,43 @@
+.tokyo {
+  height: 300px;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+.tokyo-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding-left: 50px;
+}
+.tokyo-description {
+  padding-left: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.tokyo-description h2 {
+  font-size: 30px;
+  color: #f48327
+}
+.tokyo-description p {
+  font-size: 14px;
+  opacity: 1;
+  font-weight: bolder;
+  color: white;
+}
+.tokyo-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.tokyo-link:hover {
+  opacity: 0.08;
+}

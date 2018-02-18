@@ -1,0 +1,12 @@
+.instagram {
+	background-image: url("images/insta.png");
+	background-size: cover;
+	margin: auto;
+	display: flex;
+}
+
+#target3 {
+	background-image: url("images/instatop.png");
+	padding: 12px;
+	padding-left:50px;
+}
